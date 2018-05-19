@@ -20,7 +20,7 @@ bot.on('message', message => {
                 message.channel.send(`Okay, patron je redémarre ! `);
               bot.destroy();
                 console.log("déconnection")
-                bot.login('MzUyNDI1NzY1MjEzODMxMTg4.DeG69g.xjcejeGRlLNGOK_jyfbrdgPcTSA');
+                bot.login(process.env.TOKEN);
                 console.log("Redémarrage patron !")
                 console.log(`Je suis connecté !`)
       }else{
