@@ -16,3 +16,21 @@
   "author": "KevFunGames",
   "license": "ISC"
 }
+{
+  "name": "kevfunbot",
+  "version": "1.0.0",
+  "description": "Bot officiel de KevFunGames !",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo "Error: no test specified" && exit 1"
+  },
+  "keywords": [
+    "kevfungames"
+  ],
+  "author": "KevFunGames",
+  "license": "ISC"
+}
