@@ -15,7 +15,7 @@ bot.on('message', message => {
 
     bot.on('message', message => {
         if(message.author.bot) return;
-        if(message.content.startsWith("**restart")) {
+        if(message.content.startsWith("k!restart")) {
         if (message.author.id == "310534784394723338") {
                 message.channel.send(`Okay, patron je redémarre ! `);
               bot.destroy();
